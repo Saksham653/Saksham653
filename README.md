@@ -300,13 +300,15 @@ A robust, production-ready inventory management web app with CRUD operations, re
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-  <h2>🏆 GitHub Trophies</h2>
+  <h2>🏅 Achievements & Milestones</h2>
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Saksham653&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&text_color=93c5fd" alt="Wakatime Stats"/>
+![Repos](https://img.shields.io/badge/Public%20Repos-8-1d4ed8?style=for-the-badge&logo=github&logoColor=white)
+![Stars](https://img.shields.io/badge/Total%20Stars-3-f59e0b?style=for-the-badge&logo=github&logoColor=white)
+![Languages](https://img.shields.io/badge/Languages-Python%20%26%20JS-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-AI%20%26%20ML-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-22c55e?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
-
-<br/>
 
 ---
 
