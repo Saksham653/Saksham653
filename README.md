@@ -240,9 +240,9 @@ A robust, production-ready inventory management web app with CRUD operations, re
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Saksham653&show_icons=true&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&icon_color=3b82f6&text_color=93c5fd&ring_color=1d4ed8&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Saksham653&show_icons=true&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&icon_color=3b82f6&text_color=93c5fd&ring_color=1d4ed8&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saksham653&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&text_color=93c5fd&layout=compact&langs_count=7" height="175" alt="Top Languages"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Saksham653&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&text_color=93c5fd&layout=compact&langs_count=7" height="175" alt="Top Languages"/>
 
 </div>
 
