@@ -302,7 +302,7 @@ A robust, production-ready inventory management web app with CRUD operations, re
 <div align="center">
   <h2>🏆 GitHub Trophies</h2>
 
-  <img src="https://github-profile-trophy.vercel.app/?username=Saksham653&theme=nord&no-frame=true&no-bg=true&margin-w=8&column=6" width="95%" alt="Trophies"/>
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Saksham653&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&text_color=93c5fd" alt="Wakatime Stats"/>
 
 </div>
 
