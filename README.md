@@ -8,7 +8,9 @@
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdnNzRiZzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding gif"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,40:0d1b4b,80:1a3a8f,100:1e56c4&height=220&section=header&text=Saksham%20Srivastava&fontSize=54&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20AI%20Builder&descAlignY=60&descColor=60a5fa&animation=fadeIn" width="100%" alt="Saksham Header"/>
+
 </div>
 
 <!-- ╔═══════════════════════════════════════════════════════════════════════╗
@@ -16,11 +18,8 @@
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-
-<h3 align="center">
-  📊 Building predictive ML models &amp; AI systems &nbsp;|&nbsp; 🤖 Crafting intelligent agents with LLMs <br/>
-  🔬 Turning raw data into actionable insights &nbsp;|&nbsp; 🚀 Open to collaborations &amp; opportunities!
-</h3>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdnNzRiZzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding gif"/>
+</div>
 
 <br/><br/>
 
@@ -299,15 +298,13 @@ A robust, production-ready inventory management web app with CRUD operations, re
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-  <h2>🏅 Achievements & Milestones</h2>
+  <h2>🏆 GitHub Trophies</h2>
 
-![Repos](https://img.shields.io/badge/Public%20Repos-8-1d4ed8?style=for-the-badge&logo=github&logoColor=white)
-![Stars](https://img.shields.io/badge/Total%20Stars-3-f59e0b?style=for-the-badge&logo=github&logoColor=white)
-![Languages](https://img.shields.io/badge/Languages-Python%20%26%20JS-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-AI%20%26%20ML-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open%20Source-Contributor-22c55e?style=for-the-badge&logo=git&logoColor=white)
+  <img src="https://github-profile-trophy.vercel.app/?username=Saksham653&theme=nord&no-frame=true&no-bg=true&margin-w=8&column=6" width="95%" alt="Trophies"/>
 
 </div>
+
+<br/>
 
 ---
 
