@@ -16,10 +16,9 @@
 <!-- ╔═══════════════════════════════════════════════════════════════════════╗
      ║  SECTION 2 · TYPING ANIMATION — cycles through specialisations      ║
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
-
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdnNzRiZzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNzRiNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding gif"/>
-</div>
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="AI coding gif"/>
 
 <br/><br/>
 
@@ -32,7 +31,6 @@
 <img src="https://img.shields.io/badge/Focus-Machine%20Learning%20%26%20AI-1d4ed8?style=for-the-badge&logo=pytorch&logoColor=white" alt="Focus badge"/>
 
 </div>
-
 ---
 
 <!-- ╔═══════════════════════════════════════════════════════════════════════╗
