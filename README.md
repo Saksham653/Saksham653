@@ -19,9 +19,10 @@
 
 <div align="center">
 
-<a href="https://github.com/Saksham653">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=3B82F6&center=true&vCenter=true&width=680&lines=📊+Building+predictive+ML+models+%26+AI+systems;🤖+Crafting+intelligent+agents+with+LLMs;🔬+Turning+raw+data+into+actionable+insights;🛠️+Python+%7C+scikit-learn+%7C+LangChain+%7C+FastAPI;🚀+Open+to+collaborations+%26+opportunities!" alt="Typing SVG"/>
-</a>
+<h3 align="center">
+  📊 Building predictive ML models &amp; AI systems &nbsp;|&nbsp; 🤖 Crafting intelligent agents with LLMs <br/>
+  🔬 Turning raw data into actionable insights &nbsp;|&nbsp; 🚀 Open to collaborations &amp; opportunities!
+</h3>
 
 <br/><br/>
 
