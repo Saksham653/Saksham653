@@ -192,19 +192,20 @@ An intelligent HR automation system that uses AI agents to streamline recruitmen
 <td width="50%" valign="top">
 
 ### 💡 [LUMIQ](https://github.com/Saksham653/LUMIQ)
-**Smart JavaScript Web Application**
+**Zero-Backend AI Analytics Platform**
 
-A feature-rich JavaScript application delivering intelligent user experiences through clean code principles and modern web standards. Demonstrates sharp full-stack thinking.
+A browser-native AI analytics platform powered by Groq + Llama 3.3 70B that transforms raw CSV datasets into interactive intelligence dashboards — no server required.
 
-- 🎨 Modern responsive UI/UX
-- 🔄 Real-time dynamic interactions
-- 🧩 Modular component architecture
+- 🗣️ Oracle AI — streaming chat seeded with your live dataset
+- 🔮 Natural language filtering → live JS filter functions
+- 📊 Hand-crafted pure SVG charts (zero UI libraries)
+- 🧬 Pearson heatmap, Z-score anomaly detection, forecasting
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/-React%2018-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Groq](https://img.shields.io/badge/-Groq%20LLM-F55036?style=flat)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat&logo=vite&logoColor=white)
 
-⭐ `1 Star` &nbsp; 🔗 [**View Repo →**](https://github.com/Saksham653/LUMIQ)
+⭐ `1 Star` &nbsp; 🔗 [**View Repo →**](https://github.com/Saksham653/LUMIQ) &nbsp; 🚀 [**Live Demo →**](https://lumiq-saksham-srivastavas-projects-a00eb29a.vercel.app/)
 
 </td>
 
