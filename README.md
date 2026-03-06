@@ -14,13 +14,10 @@
 </div>
 
 <!-- ╔═══════════════════════════════════════════════════════════════════════╗
-     ║  SECTION 2 · TYPING ANIMATION — cycles through specialisations      ║
+     ║  SECTION 2 · BADGES + GITHUB STATS                                  ║
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
+
 <div align="center">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="AI coding gif"/>
-
-<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=Saksham653&style=for-the-badge&color=1d4ed8&label=PROFILE+VIEWS" alt="Profile views"/>
 &nbsp;
@@ -30,7 +27,20 @@
 &nbsp;
 <img src="https://img.shields.io/badge/Focus-Machine%20Learning%20%26%20AI-1d4ed8?style=for-the-badge&logo=pytorch&logoColor=white" alt="Focus badge"/>
 
+<br/><br/>
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Saksham653&show_icons=true&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&icon_color=3b82f6&text_color=93c5fd&ring_color=1d4ed8&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Saksham653&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&text_color=93c5fd&layout=compact&langs_count=7" height="175" alt="Top Languages"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Saksham653&hide_border=true&background=0a0a1a&ring=1d4ed8&fire=60a5fa&currStreakLabel=60a5fa&sideLabels=93c5fd&currStreakNum=ffffff&sideNums=ffffff&dates=3b82f6" alt="GitHub Streak"/>
+
 </div>
+
+<br/>
+
 ---
 
 <!-- ╔═══════════════════════════════════════════════════════════════════════╗
@@ -200,20 +210,20 @@ A feature-rich JavaScript application delivering intelligent user experiences th
 
 <td width="50%" valign="top">
 
-### 📦 [Inventory Management System](https://github.com/Saksham653/inventory-management-system)
-**Full-Stack Business Application**
+### 🌿 [ML Drift Detection](https://github.com/Saksham653/ML-DRIFT-DETECTION---PERFORMANCE-MONITORING)
+**MLOps Performance Monitoring**
 
-A robust, production-ready inventory management web app with CRUD operations, real-time stock tracking, and a clean dashboard — solving a genuine small-business operational challenge.
+A production-grade ML monitoring system that detects model drift and tracks performance degradation over time — a critical but often overlooked part of real-world ML pipelines.
 
-- 📊 Real-time stock dashboard
-- 🔒 Secure, validated CRUD operations
-- 📈 Business-ready analytics views
+- 📉 Automated drift detection & alerting
+- 📊 Performance metrics tracking dashboard
+- 🔁 Continuous model health monitoring
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![MLOps](https://img.shields.io/badge/-MLOps-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Monitoring](https://img.shields.io/badge/-Monitoring-1d4ed8?style=flat)
 
-⭐ `1 Star` &nbsp; 🔗 [**View Repo →**](https://github.com/Saksham653/inventory-management-system)
+⭐ `1 Star` &nbsp; 🔗 [**View Repo →**](https://github.com/Saksham653/ML-DRIFT-DETECTION---PERFORMANCE-MONITORING)
 
 </td>
 
@@ -222,7 +232,7 @@ A robust, production-ready inventory management web app with CRUD operations, re
 
 <div align="center">
 
-> 🌿 **Also worth exploring:** [Air Quality AQI Predictor](https://github.com/Saksham653/air-quality-aqi) — a complete ML pipeline for environmental data analysis & AQI prediction using Python & Jupyter.
+> 🌿 **Also worth exploring:** [Air Quality AQI Predictor](https://github.com/Saksham653/air-quality-aqi) · [Inventory Management System](https://github.com/Saksham653/inventory-management-system) · [FixItClub Groundwater API](https://github.com/Saksham653/fixitclub-groundwater-api)
 
 </div>
 
@@ -231,30 +241,8 @@ A robust, production-ready inventory management web app with CRUD operations, re
 ---
 
 <!-- ╔═══════════════════════════════════════════════════════════════════════╗
-     ║  SECTION 6 · GITHUB STATISTICS                                      ║
+     ║  SECTION 6 · ACTIVITY GRAPH                                         ║
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
-
-<div align="center">
-  <h2>📊 GitHub Statistics</h2>
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Saksham653&show_icons=true&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&icon_color=3b82f6&text_color=93c5fd&ring_color=1d4ed8&include_all_commits=true&count_private=true" height="175" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Saksham653&hide_border=true&bg_color=0a0a1a&title_color=60a5fa&text_color=93c5fd&layout=compact&langs_count=7" height="175" alt="Top Languages"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Saksham653&hide_border=true&background=0a0a1a&ring=1d4ed8&fire=60a5fa&currStreakLabel=60a5fa&sideLabels=93c5fd&currStreakNum=ffffff&sideNums=ffffff&dates=3b82f6" alt="GitHub Streak"/>
-
-</div>
-
-<br/>
 
 <div align="center">
 
@@ -323,7 +311,6 @@ A robust, production-ready inventory management web app with CRUD operations, re
 
 <!-- ╔═══════════════════════════════════════════════════════════════════════╗
      ║  SECTION 10 · CONNECT / CONTACT                                     ║
-     ║  ⚠️  Replace placeholder values before publishing!                  ║
      ╚═══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
@@ -333,25 +320,11 @@ A robust, production-ready inventory management web app with CRUD operations, re
 
 <div align="center">
 
-<!--
-  ╔══════════════════════════════════════════════════════════╗
-  ║  ⚠️  FILL IN BEFORE PUBLISHING                        ║
-  ║  YOUR-LINKEDIN-SLUG   → e.g. saksham-srivastava-abc   ║
-  ║  YOUR-EMAIL           → your email address             ║
-  ║  YOUR-TWITTER-HANDLE  → your Twitter/X username        ║
-  ║  YOUR-PORTFOLIO-URL   → e.g. saksham.dev               ║
-  ╚══════════════════════════════════════════════════════════╝
--->
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-SLUG)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saksham-srivastava-b689a8367)
 &nbsp;
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saksham653)
-&nbsp;
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR-TWITTER-HANDLE)
-&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-1d4ed8?style=for-the-badge&logo=vercel&logoColor=white)](https://YOUR-PORTFOLIO-URL)
 
 <br/><br/>
 
