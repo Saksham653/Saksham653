@@ -26,6 +26,10 @@
 </a>
 &nbsp;
 <img src="https://img.shields.io/badge/Focus-Machine%20Learning%20%26%20AI-1d4ed8?style=for-the-badge&logo=pytorch&logoColor=white" alt="Focus badge"/>
+&nbsp;
+<a href="https://www.fiverr.com/sakshamai_">
+  <img src="https://img.shields.io/badge/Hire%20me%20on-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white&labelColor=0a0a1a" alt="Hire me on Fiverr"/>
+</a>
 
 <br/><br/>
 
@@ -366,10 +370,19 @@ Production-grade inventory system — FastAPI, async PostgreSQL, React, JWT auth
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saksham653)
+&nbsp;
+[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/sakshamai_)
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/💼%20Available%20for-Data%20Science%20%26%20ML%20Roles-1d4ed8?style=for-the-badge" alt="Open to work"/>
+
+<br/><br/>
+
+<b>🛠️ Freelance on Fiverr:</b>
+<a href="https://www.fiverr.com/sakshamai_/build-a-custom-ai-chatbot-using-langchain-and-openai-for-your-website-or-app">Custom AI chatbot trained on your data</a>
+&nbsp;·&nbsp;
+<a href="https://www.fiverr.com/sakshamai_">Full-stack web apps (React, Next.js, Node, Supabase)</a>
 
 </div>
 
