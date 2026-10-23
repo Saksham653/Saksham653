@@ -383,6 +383,8 @@ Production-grade inventory system — FastAPI, async PostgreSQL, React, JWT auth
 <a href="https://www.fiverr.com/sakshamai_/build-a-custom-ai-chatbot-using-langchain-and-openai-for-your-website-or-app">Custom AI chatbot trained on your data</a>
 &nbsp;·&nbsp;
 <a href="https://www.fiverr.com/sakshamai_/be-your-full-stack-developer-to-build-react-next-js-node-js-web-app">Full-stack web apps (React, Next.js, Node, Supabase)</a>
+&nbsp;·&nbsp;
+<a href="https://www.fiverr.com/sakshamai_/build-a-react-native-mobile-app-for-android-and-ios-with-expo">React Native mobile apps (Android + iOS)</a>
 
 </div>
 
