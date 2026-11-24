@@ -2,7 +2,6 @@
 
 <img src="./banner.png" width="100%" alt="Saksham Srivastava — Full-stack & AI engineer. I build the part nobody sees, and everybody depends on."/>
 
-### I build the part nobody *sees*, and everybody depends on.
 
 APIs, databases, books that balance, and AI that works on checked numbers —
 plus the part people do see: web apps in Next.js and mobile apps in React Native.
