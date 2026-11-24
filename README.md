@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0b0b0c,100:16161a&height=170&section=header&text=Saksham%20Srivastava&fontSize=52&fontColor=ededea&fontAlignY=42&desc=Full-stack%20%26%20AI%20engineer%20%C2%B7%20Lucknow%2C%20India&descSize=18&descAlignY=72&descColor=8d8d93" width="100%" alt="Saksham Srivastava — Full-stack & AI engineer"/>
+<img src="./banner.png" width="100%" alt="Saksham Srivastava — Full-stack & AI engineer. I build the part nobody sees, and everybody depends on."/>
 
 ### I build the part nobody *sees*, and everybody depends on.
 
