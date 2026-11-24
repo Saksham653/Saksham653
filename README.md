@@ -12,9 +12,7 @@ plus the part people do see: web apps in Next.js and mobile apps in React Native
 [**Résumé**](https://saksham.sqaron.dev/resume/) &nbsp;·&nbsp;
 [**Email**](mailto:sakshamsrivastava7000@gmail.com)
 
-<img src="https://img.shields.io/badge/Co--founder-Sqaron%20Technologies-111113?style=flat-square" alt="Co-founder, Sqaron Technologies"/>
-<img src="https://img.shields.io/badge/OSHT%20backend-872%20APIs%20%C2%B7%208%2C951%20tests-7389ff?style=flat-square" alt="OSHT backend: 872 APIs, 8,951 tests"/>
-<img src="https://img.shields.io/badge/IBM-Data%20Science%20%26%20AI%20path-1f70c1?style=flat-square" alt="IBM Data Science & AI learning path"/>
+`Co-founder, Sqaron Technologies` &nbsp; `OSHT backend · 872 APIs · 8,951 tests` &nbsp; `IBM Data Science & AI path`
 
 </div>
 
