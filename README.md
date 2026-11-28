@@ -1,49 +1,41 @@
-<div align="center">
+<a href="https://saksham.sqaron.dev/">
+  <img src="assets/header-light.svg#gh-light-mode-only" width="100%" alt="Saksham Srivastava: I build the part nobody sees, and everybody depends on. Backend, AI and full-stack engineer from Lucknow, India. 872 APIs in production, 8,951 tests, 158 tables, 0 s downtime. Now shipping LUMIQ 2.0 for Android."><img src="assets/header-dark.svg#gh-dark-mode-only" width="100%" alt="Saksham Srivastava: I build the part nobody sees, and everybody depends on. Backend, AI and full-stack engineer from Lucknow, India. 872 APIs in production, 8,951 tests, 158 tables, 0 s downtime. Now shipping LUMIQ 2.0 for Android.">
+</a>
 
-<img src="./banner.png" width="100%" alt="Saksham Srivastava — Full-stack & AI engineer. I build the part nobody sees, and everybody depends on."/>
+<p align="center">
+  <a href="https://saksham.sqaron.dev/"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/saksham-srivastava-dev/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://saksham653.github.io/resume.pdf"><b>Résumé</b></a> &nbsp;·&nbsp;
+  <a href="https://dev.to/saksham653"><b>Writing</b></a> &nbsp;·&nbsp;
+  <a href="mailto:sakshamsrivastava7000@gmail.com"><b>Email</b></a>
+</p>
 
+I'm a backend, AI and full-stack engineer from Lucknow, India, and a co-founder of [Sqaron Technologies](https://sqaron.dev/).
+I built the production backend that a multi-firm grain-trading business runs on every day, and I ship products of my own.
+These are the ones I'd show you first.
 
-APIs, databases, books that balance, and AI that works on checked numbers —
-plus the part people do see: web apps in Next.js and mobile apps in React Native.
+<a href="https://lumiq-android.vercel.app/"><img src="assets/lumiq-light.svg#gh-light-mode-only" width="100%" alt="LUMIQ, my hero project: an Android app, built solo, that answers questions about a CSV or Excel file in English or Hindi. Every number is worked out on the phone and checked before you see it. 390 tests. Expo, React Native, TypeScript, Groq."><img src="assets/lumiq-dark.svg#gh-dark-mode-only" width="100%" alt="LUMIQ, my hero project: an Android app, built solo, that answers questions about a CSV or Excel file in English or Hindi. Every number is worked out on the phone and checked before you see it. 390 tests. Expo, React Native, TypeScript, Groq."></a>
 
-[**🌐 saksham.sqaron.dev**](https://saksham.sqaron.dev) &nbsp;·&nbsp;
-[**LinkedIn**](https://www.linkedin.com/in/saksham-srivastava-dev/) &nbsp;·&nbsp;
-[**Résumé**](https://saksham.sqaron.dev/resume/) &nbsp;·&nbsp;
-[**Email**](mailto:sakshamsrivastava7000@gmail.com)
+<a href="https://stockwaves.netlify.app/"><img src="assets/stockwaves-light.svg#gh-light-mode-only" width="49%" alt="StockWaves: inventory for Indian shops, counted in rupees. Built solo with FastAPI, PostgreSQL and React, with a WhatsApp morning brief."><img src="assets/stockwaves-dark.svg#gh-dark-mode-only" width="49%" alt="StockWaves: inventory for Indian shops, counted in rupees. Built solo with FastAPI, PostgreSQL and React, with a WhatsApp morning brief."></a>
+<a href="https://saksham.sqaron.dev/work/osht/"><img src="assets/osht-light.svg#gh-light-mode-only" width="49%" alt="OSHT – Agro Trading: the production backend of a grain-trading business. 872 API endpoints, 8,951 automated tests, 158 PostgreSQL tables, bill printing 6.8 times faster. Python, FastAPI, PostgreSQL, OCR."><img src="assets/osht-dark.svg#gh-dark-mode-only" width="49%" alt="OSHT – Agro Trading: the production backend of a grain-trading business. 872 API endpoints, 8,951 automated tests, 158 PostgreSQL tables, bill printing 6.8 times faster. Python, FastAPI, PostgreSQL, OCR."></a>
+<a href="https://clonix-tau.vercel.app/"><img src="assets/clonix-light.svg#gh-light-mode-only" width="49%" alt="Clonix: any website as design tokens and component packs for AI editors such as Cursor, Claude Code and Windsurf. Co-founder; I built the whole backend."><img src="assets/clonix-dark.svg#gh-dark-mode-only" width="49%" alt="Clonix: any website as design tokens and component packs for AI editors such as Cursor, Claude Code and Windsurf. Co-founder; I built the whole backend."></a>
+<a href="https://saksham.sqaron.dev/writing/"><img src="assets/principles-light.svg#gh-light-mode-only" width="49%" alt="How I build: numbers from code, words from AI; refuse, don't repair; releases that prove themselves."><img src="assets/principles-dark.svg#gh-dark-mode-only" width="49%" alt="How I build: numbers from code, words from AI; refuse, don't repair; releases that prove themselves."></a>
 
-`Co-founder, Sqaron Technologies` &nbsp; `OSHT backend · 872 APIs · 8,951 tests` &nbsp; `IBM Data Science & AI path`
+<sub>Code: [LUMIQ](https://github.com/Saksham653/LUMIQ) · [StockWaves](https://github.com/Saksham653/inventory-management-system). OSHT and Clonix are private; their case studies are on [my site](https://saksham.sqaron.dev/work/).</sub>
 
-</div>
+### Notes from production
 
----
+- [**Refuse, don’t repair**](https://saksham.sqaron.dev/writing/refuse-dont-repair/): building accounting books that can’t go wrong
+- [**Releases that prove themselves**](https://saksham.sqaron.dev/writing/releases-that-prove-themselves/): zero-downtime deploys for a backend people use all day
+- [**One warm browser**](https://saksham.sqaron.dev/writing/one-warm-browser/): printing a day’s bills, Hindi included, from a Python backend
+- [**The model reads, the code decides**](https://saksham.sqaron.dev/writing/the-model-reads-the-code-decides/): AI document reading that can’t put a wrong number in the books
 
-## What I've built
+<a href="https://saksham653.github.io/year/"><img src="assets/year-light.svg#gh-light-mode-only" width="100%" alt="A year on GitHub, updated every morning: followers, contributions, active days, longest streak, public repos and stars, over a small city of the year with one block a day."><img src="assets/year-dark.svg#gh-dark-mode-only" width="100%" alt="A year on GitHub, updated every morning: followers, contributions, active days, longest streak, public repos and stars, over a small city of the year with one block a day."></a>
 
-| | |
-|---|---|
-| **[OSHT – Agro Trading](https://saksham.sqaron.dev/work/osht/)** · production backend | The backend and features behind a grain-trading business's Android, iOS and web apps: **872 API endpoints, 158 PostgreSQL tables, ~257,000 lines of Python, 8,951 tests**. Double-entry books that refuse unbalanced vouchers, workers that match every payment to its bill, OCR in, batch PDFs out, zero-downtime releases. *(private repo)* |
-| **[Clonix](https://saksham.sqaron.dev/work/clonix/)** · co-founder, backend | A design-DNA engine that turns any website into design tokens and component packs for AI editors. |
-| **[LUMIQ](https://github.com/Saksham653/LUMIQ)** · [live](https://lumiq-silk.vercel.app) | Talk to your data: upload a CSV, ask in plain English, get answers, charts and forecasts (Groq + Llama 3.3 70B, runs in the browser). |
-| **[FlowCraft](https://github.com/Saksham653/Flow-Craft)** · [live](https://flow-craft-theta.vercel.app/) | A full SaaS that chains AI stages into content pipelines — auth, payments, credits. |
-| **[StockWaves](https://github.com/Saksham653/inventory-management-system)** | Stock, sales and suppliers with analytics and an AI assistant (FastAPI, async PostgreSQL, JWT, Docker). |
-| **[HR Agent Pro](https://github.com/Saksham653/hr-agent-pro)** · **[DriftWatch](https://github.com/Saksham653/ML-DRIFT-DETECTION---PERFORMANCE-MONITORING)** · **[SmartEdge Copilot](https://github.com/Saksham653/smartedge-copilot)** | Multi-agent LangChain, MLOps drift monitoring, and an LLM copilot with plugins. |
+### Stack
 
-## How I work
+**Backend** · Python, FastAPI, SQLAlchemy, PostgreSQL, background workers, Docker, Linux<br>
+**AI** · LLM apps, LangChain, RAG, agents, OCR, Claude / OpenAI / Groq<br>
+**Apps** · React Native, Expo, React, Next.js, TypeScript
 
-Numbers come from code, words come from the model — never the other way round.
-Wrong data is refused at the door, not repaired later. Thousands of tests before every release.
-
-## Stack
-
-**Backend** — Python · FastAPI · PostgreSQL · SQL · Docker · background workers · OCR
-**Front end & mobile** — Next.js · React · TypeScript · Tailwind · Motion · WebGL · React Native · Expo
-**AI** — LangChain · RAG · AI agents · Groq / OpenAI / Claude
-
-<div align="center">
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Saksham653&show_icons=true&hide_border=true&bg_color=0b0b0c&title_color=ededea&icon_color=7389ff&text_color=8d8d93&include_all_commits=true&count_private=true" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Saksham653&hide_border=true&bg_color=0b0b0c&title_color=ededea&text_color=8d8d93&layout=compact&langs_count=6" height="165" alt="Top languages"/>
-
-**Open to full-stack, backend and AI roles, and to freelance projects** — [saksham.sqaron.dev](https://saksham.sqaron.dev)
-
-</div>
+<p align="center"><sub>Open to backend, AI and full-stack roles, and to freelance work · <a href="mailto:sakshamsrivastava7000@gmail.com">sakshamsrivastava7000@gmail.com</a></sub></p>

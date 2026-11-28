@@ -1,0 +1,36 @@
+# Redraws assets/year-*.svg and year.json (followers, contributions, streak, repos, stars and a city of the year) every morning,
+# India time. scripts/year.mjs has no dependencies.
+name: year
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: year
+  cancel-in-progress: true
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Draw the year
+        run: node scripts/year.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if it changed
+        run: |
+          git diff --quiet assets/ && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/year-dark.svg assets/year-light.svg assets/year.json
+          git commit -m 'Year: redraw'
+          git push
