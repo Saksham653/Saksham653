@@ -1,6 +1,7 @@
 // "A year on GitHub": a live tracker (followers, contributions, active days, longest streak, repos, stars) over a
 // small city of the year, one block per day, as tall as that day's contributions. Numbers count up, the blocks rise,
-// a light passes over the city and a beacon marks the busiest day. Writes assets/year-dark.svg and year-light.svg.
+// a light passes over the city and a beacon marks the busiest day. Writes assets/year.svg, which takes light or dark
+// colours from the viewer's theme, and assets/year.json for the interactive page.
 // Runs every morning from .github/workflows/year.yml; no dependencies.
 //   GITHUB_TOKEN=... node scripts/year.mjs [saved-response.json]
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -28,6 +29,32 @@ const THEMES = {
   dark: { bg: '#0b0b0c', line: '#242427', ink: '#ededea', soft: '#9a9aa0', tile: '#121214', flat: '#19191c', lo: [62, 72, 128], hi: [126, 146, 255], accent: '#7389ff', win: '#ffe6a3', glow: '#e4e9ff' },
   light: { bg: '#f6f6f4', line: '#e2e2de', ink: '#111113', soft: '#5f5f66', tile: '#ffffff', flat: '#e6e6e1', lo: [205, 211, 238], hi: [43, 80, 255], accent: '#2b50ff', win: '#ffffff', glow: '#ffffff' },
 };
+const KEYS = ['bg', 'line', 'ink', 'soft', 'tile', 'flat', 'accent', 'win', 'glow'];
+const TOK = Object.fromEntries(KEYS.map((k) => [k, `var(--${k})`]));
+const LEVELS = 10;
+const level = (k) => Math.round(Math.min(1, k * k * 1.25) * LEVELS);
+
+// light colours by default, dark ones when the viewer's theme is dark; block faces come in LEVELS + 1 shades
+function palette() {
+  const vars = (t) => KEYS.map((k) => `--${k}:${t[k]}`).join(';');
+  const faces = (t) => Array.from({ length: LEVELS + 1 }, (_, L) => {
+    const c = mix(t.lo, t.hi, L / LEVELS);
+    return `.a${L}{fill:${rgb(c, 0.78)}}.b${L}{fill:${rgb(c, 0.6)}}.c${L}{fill:${rgb(c)}}`;
+  }).join('');
+  return `svg{${vars(THEMES.light)}}${faces(THEMES.light)}\n@media (prefers-color-scheme: dark){svg{${vars(THEMES.dark)}}${faces(THEMES.dark)}}`;
+}
+
+// presentation attributes can't hold var(), so fill="var(--x)" moves into the element's style
+function themeify(svg) {
+  return svg.replace(/<([a-zA-Z][\w:-]*)((?:\s[^<>]*?)?)(\s*\/?)>/g, (all, tag, attrs, close) => {
+    const moved = [];
+    attrs = attrs.replace(/\s(fill|stroke)="(var\(--[a-z]+\))"/g, (_, p, v) => { moved.push(`${p}:${v}`); return ''; });
+    if (!moved.length) return all;
+    attrs = attrs.includes(' style="') ? attrs.replace(' style="', ` style="${moved.join(';')};`) : `${attrs} style="${moved.join(';')}"`;
+    return `<${tag}${attrs}${close}>`;
+  });
+}
+
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const W = 1200, H = 486;
 const U = 19.2, V = [5.2, -6.6];        // one week to the right; one weekday further back (up and to the right)
@@ -127,7 +154,7 @@ function svg(user, t) {
         + `<text class="lbl" x="${(tx + 10).toFixed(1)}" y="${(ty - 8).toFixed(1)}" style="fill:${t.accent}">today</text></g>`;
     }
     if (!n) return `<polygon points="${pts(top)}" fill="${t.flat}"/><polygon class="glow0" style="animation-delay:${w}s" points="${pts(top)}" fill="${t.accent}"/>`;
-    const k = Math.log1p(n) / Math.log1p(max), c = mix(t.lo, t.hi, Math.min(1, k * k * 1.25));
+    const L = level(Math.log1p(n) / Math.log1p(max));
     const up = ([x, y]) => [x, y - h];
     if (d === busiest) {
       const bx = (A[0] + C[0]) / 2, by = (A[1] + C[1]) / 2 - h;
@@ -148,9 +175,9 @@ function svg(user, t) {
       }
     }
     return `<g class="b" style="animation-delay:${(0.6 + d.wk * 0.022).toFixed(3)}s"><g class="w" style="animation-delay:${w}s">`
-      + `<polygon points="${pts([A, B, up(B), up(A)])}" fill="${rgb(c, 0.78)}"/>`
-      + `<polygon points="${pts([B, C, up(C), up(B)])}" fill="${rgb(c, 0.6)}"/>`
-      + `<polygon points="${pts(top)}" fill="${rgb(c)}"/>${windows}`
+      + `<polygon class="a${L}" points="${pts([A, B, up(B), up(A)])}"/>`
+      + `<polygon class="b${L}" points="${pts([B, C, up(C), up(B)])}"/>`
+      + `<polygon class="c${L}" points="${pts(top)}"/>${windows}`
       + `<polygon class="glow" style="animation-delay:${w}s" points="${pts(top)}" fill="${t.glow}"/></g></g>`;
   }).join('');
   const labels = cal.weeks.map((w, wk) => {
@@ -164,6 +191,7 @@ function svg(user, t) {
 <desc id="d">${user.followers.totalCount} followers, ${fmt(cal.totalContributions)} contributions in the last year on ${active} days, longest streak ${longest} days, ${user.repositories.totalCount} public repositories, ${stars} stars. Busiest day ${day(busiest.date)} with ${busiest.contributionCount}. Updated ${day(today.date)}.</desc>
 <defs><clipPath id="card"><rect width="${W}" height="${H}" rx="18"/></clipPath></defs>
 <style>
+${palette()}
   text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: ${t.soft}; }
   .k { font-size: 12.5px; letter-spacing: .16em; }
   .lbl { font-size: 12.5px; letter-spacing: .02em; }
@@ -226,7 +254,7 @@ function json(user) {
 
 const user = await load();
 mkdirSync('assets', { recursive: true });
-for (const [name, t] of Object.entries(THEMES)) writeFileSync(`assets/year-${name}.svg`, svg(user, t));
+writeFileSync('assets/year.svg', themeify(svg(user, TOK)));
 writeFileSync('assets/year.json', json(user) + '\n');
 const cal = user.contributionsCollection.contributionCalendar;
 console.log(`year: ${user.followers.totalCount} followers, ${cal.totalContributions} contributions, ${cal.weeks.length} weeks`);
